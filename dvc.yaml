@@ -49,3 +49,9 @@ stages:
     outs:
       - experiment_info.json
       - reports/figures/confusion_matrix_final.png
+
+  model_registration:
+    cmd: python src/models/register_model.py
+    deps:
+      - experiment_info.json
+      - src/models/register_model.py
