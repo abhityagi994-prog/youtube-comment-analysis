@@ -73,7 +73,7 @@ jobs:
         run: |
           dvc push
 
-                - name: Install test dependencies
+      - name: Install test dependencies
         run: |
           pip install pytest
 
