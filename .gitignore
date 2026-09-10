@@ -102,3 +102,4 @@ mlartifacts/
 
 # Jupyter
 .ipynb_checkpoints/
+/experiment_info.json
